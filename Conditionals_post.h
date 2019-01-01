@@ -1326,7 +1326,8 @@
  */
 #ifndef Z_HOMING_HEIGHT
   #ifndef Z_CLEARANCE_BETWEEN_PROBES
-    #define Z_HOMING_HEIGHT 0
+    #define Z_HOMING_HEIGHT 2
+    
   #else
     #define Z_HOMING_HEIGHT Z_CLEARANCE_BETWEEN_PROBES
   #endif
